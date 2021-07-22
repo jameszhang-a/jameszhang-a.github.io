@@ -3,6 +3,22 @@
   font-family: Montserrat;
 }
 
+body {
+  background: #fac65f;
+  overflow-x: hidden;
+}
+
+h1 {
+  display: block;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 0vh;
+}
+
+h2 {
+  color: #4e3f22;
+}
+
 .container {
   min-height: 80vh;
   display: flex;
@@ -19,22 +35,18 @@
   align-items: center;
 }
 
-h1 {
-  display: block;
-  font-size: 64px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+#major {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
 }
 
-body {
-  background: #fac65f;
-  overflow-x: hidden;
+#title {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-p {
+#about {
   overflow: hidden;
-  max-width: 75ch;
+  max-width: 60ch;
+  text-align: center;
 }
