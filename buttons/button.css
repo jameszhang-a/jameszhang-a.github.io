@@ -18,12 +18,10 @@
   color: white;
 }
 
-/* Twitter */
 .fa-github {
   background: #333;
   color: white;
 }
-
 
 .tooltip {
   position: relative;
@@ -44,24 +42,10 @@
   top: 110%;
   right: 0px;
 
-  
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
   opacity: 0;
   transition: opacity 1s;
 }
-
-/* tooltip arrow */
-/* .tooltip .tooltiptext::after {
-  opacity: 1;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px; 
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-} */
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
