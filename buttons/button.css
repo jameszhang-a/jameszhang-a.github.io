@@ -31,13 +31,15 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  font-size: 12px;
+  font-size: 18px;
+  min-width: 100px;
   background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
+  transform: translateX(15%);
   z-index: 1;
   top: 110%;
   right: 0px;

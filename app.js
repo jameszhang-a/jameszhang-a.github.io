@@ -12,7 +12,7 @@ if (theme) {
 
 defaultBtn.addEventListener('click', () => {
   body.classList.add('default');
-  body.classList.remove('dark', 'ligh');
+  body.classList.remove('dark', 'light');
   localStorage.setItem('theme', 'default');
 });
 
