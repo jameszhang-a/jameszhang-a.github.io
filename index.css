@@ -3,9 +3,10 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fac65f;
+  background: var(--bg);
   overflow-x: hidden;
   font-family: Montserrat;
+  transition: background 500ms ease-in-out;
 }
 
 ul {
@@ -112,4 +113,30 @@ h2 {
   overflow: hidden;
   max-width: 60ch;
   text-align: center;
+}
+
+:root {
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray2: #b2becd;
+  --gray3: #6c7983;
+  --gray4: #454e56;
+  --gray5: #2a2e35;
+  --gray6: #12181b;
+  --blue: #0084a5;
+  --purple: #a82dd1;
+  --yellow: #fff565;
+  --def: #fac65f;
+}
+
+.default {
+  --bg: var(--def);
+}
+
+.dark {
+  --bg: var(--gray5);
+}
+
+.light {
+  --bg: var(--gray1);
 }
