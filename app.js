@@ -4,7 +4,7 @@ const lightBtn = document.querySelector('#light');
 const body = document.body;
 
 const theme = localStorage.getItem('theme');
-body.classList.add('default');
+body.classList.add('dark');
 if (theme) {
   body.classList.remove('default', 'dark', 'light');
   body.classList.add(theme);
