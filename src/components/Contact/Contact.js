@@ -1,8 +1,8 @@
-import { contact } from '../../portfolio'
-import './Contact.css'
+import { contact } from '../../portfolio';
+import './Contact.css';
 
 const Contact = () => {
-  if (!contact.email) return null
+  if (!contact.email) return null;
 
   return (
     <section className='section contact center' id='contact'>
@@ -13,7 +13,7 @@ const Contact = () => {
         </button>
       </a>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,8 +1,8 @@
-import uniqid from 'uniqid'
-import PropTypes from 'prop-types'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import PropTypes from 'prop-types';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LaunchIcon from '@material-ui/icons/Launch';
+import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
@@ -39,10 +39,10 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
   </div>
-)
+);
 
 ProjectContainer.propTypes = {
-  project: PropTypes.node.isRequired,
-}
+  project : PropTypes.node.isRequired
+};
 
-export default ProjectContainer
+export default ProjectContainer;
