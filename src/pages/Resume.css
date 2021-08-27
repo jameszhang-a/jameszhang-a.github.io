@@ -1,0 +1,5 @@
+.resume {
+  flex-direction: column;
+  margin-top: 3em;
+  /* min-height: 60vh; */
+}
