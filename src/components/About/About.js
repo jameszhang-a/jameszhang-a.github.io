@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { Link } from 'react-router-dom';
 import { about } from '../../portfolio';
 import './About.css';
 
@@ -19,11 +20,11 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <Link to='/resume'>
             <button type='button' className='btn btn--outline'>
               Resume
             </button>
-          </a>
+          </Link>
         )}
 
         {social && (
