@@ -6,7 +6,7 @@ import PDF from './Zhang_resume_2022.pdf';
 export const Resume = () => {
   return (
     <div class='resume'>
-      <h2>My resume</h2>
+      <h2>Resume</h2>
       <br />
 
       <Document file={PDF}>
