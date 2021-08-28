@@ -4,3 +4,8 @@
   flex-direction: column;
   margin-top: 3em;
 }
+
+iframe {
+  height: 100vh;
+  width: 80%;
+}
