@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b465951.chunk.css",
+    "main.js": "/static/js/main.76b027e6.chunk.js",
+    "main.js.map": "/static/js/main.76b027e6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.212f1880.js",
+    "runtime-main.js.map": "/static/js/runtime-main.212f1880.js.map",
+    "static/js/2.5abc93eb.chunk.js": "/static/js/2.5abc93eb.chunk.js",
+    "static/js/2.5abc93eb.chunk.js.map": "/static/js/2.5abc93eb.chunk.js.map",
+    "pdf.worker.js": "/f2c9c5a3daf10f4c0de0698450bc548a.js",
+    "f2c9c5a3daf10f4c0de0698450bc548a.js.LICENSE.txt": "/f2c9c5a3daf10f4c0de0698450bc548a.js.LICENSE.txt",
+    "index.html": "/index.html",
+    "static/css/main.5b465951.chunk.css.map": "/static/css/main.5b465951.chunk.css.map",
+    "static/js/2.5abc93eb.chunk.js.LICENSE.txt": "/static/js/2.5abc93eb.chunk.js.LICENSE.txt",
+    "static/media/Zhang_resume_2022.780a9046.pdf": "/static/media/Zhang_resume_2022.780a9046.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.212f1880.js",
+    "static/js/2.5abc93eb.chunk.js",
+    "static/css/main.5b465951.chunk.css",
+    "static/js/main.76b027e6.chunk.js"
+  ]
+}
